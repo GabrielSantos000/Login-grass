@@ -1,0 +1,101 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;	
+}
+
+body {
+    background-image: url(https://i.pinimg.com/originals/ce/c4/ee/cec4ee792d64120b28b708c1424c2a45.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    display: flex;
+    border-radius: 20px;
+    border: 1px solid #00532c;
+    background-color: #00532c;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 60px;
+    text-transform: uppercase;
+    transition: transform 80ms easy-in;
+}
+
+button:active {
+    background: rgb(0, 253, 135);
+    color: black;
+    border: none;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid #00532c;
+    background-color: #00ff887e;
+    font-size: 16px;
+    padding: 12px 15px;
+    margin: 8px;
+    width: 340px;
+}
+
+input:focus {
+    background-color: #ffffff;
+}
+
+.social-medias {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: 80ms;
+}
+
+#facebook:hover img{
+    transition: 400ms;
+    scale: 120%
+}
+
+#linkedin:hover img{
+    transition: 400ms;
+    scale: 120%
+}
+
+#instagram:hover img{
+    transition: 400ms;
+    scale: 120%
+}
+::placeholder {
+    color: #000000;
+}
+
+.botão a {
+    color: #000000;
+    text-decoration: none;
+}
+.botão{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container {
+    margin: 110px;
+    background-color: #fff3cd;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+h1, p{
+    text-align: center;
+}
+p{
+    font-family: 'Pacifico', cursive, sans-serif;
+    font-size: 20px;
+}
+h1{
+    font-family: 'Borel', cursive;
+    height: 50px;
+    font-size: 40px;
+}
